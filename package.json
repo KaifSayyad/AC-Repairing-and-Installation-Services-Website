@@ -1,0 +1,17 @@
+{
+  "name": "ac-repairing-and-installation-services-website",
+  "version": "1.0.0",
+  "description": "main node modules package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "react": "^18.2.0",
+    "vite": "^5.0.10"
+  }
+}
