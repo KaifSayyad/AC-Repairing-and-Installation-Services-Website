@@ -17,11 +17,15 @@
 
 #logoImages{
     width: 800px;
-    height: 690px;
+    height: 615px;
 }
 
 @media (max-width: 767px) { 
     #logoImages{
+        height:338px;
+    }
+
+    .carouselExampleCaptions{
         height:338px;
     }
   }

@@ -24,7 +24,7 @@ const Slider = () => {
         data-bs-interval="3500"
 
       >
-        {/* Carousel Indicators */}
+        
         <div className="carousel-indicators visually-hidden">
           {imgUrls.map((url, index) => (
             <button
@@ -39,14 +39,12 @@ const Slider = () => {
           ))}
         </div>
 
-        {/* Carousel Inner */}
         <div className="carousel-inner">
           {imgUrls.map((url, index) => (
             <div
               key={index}
               className={`carousel-item ${index === 0 ? "active" : ""}`}
             >
-              {/* Image with Gradient Overlay */}
               <div className="img-gradient">
                 <img
                   src={url}
@@ -56,7 +54,6 @@ const Slider = () => {
                 />
               </div>
 
-              {/* Carousel Caption */}
               <div className="carousel-caption d-none d-md-block">
                 <h5>{`Slide ${index + 1} label`}</h5>
                 <p>{`Some representative placeholder content for slide ${
