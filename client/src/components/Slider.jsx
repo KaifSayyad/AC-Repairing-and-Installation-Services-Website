@@ -1,12 +1,21 @@
 import React from "react";
 import "../assets/styles/Slider.css";
+import image1 from '../assets/images/image1.png'
+import image2 from '../assets/images/image2.png';
+import image3 from '../assets/images/image3.png'
 
 const Slider = () => {
   const imgUrls = [
-    "https://source.unsplash.com/800x324/?services,ac&1",
-    "https://source.unsplash.com/800x324/?services,ac&2",
-    "https://source.unsplash.com/800x324/?services,ac&3",
+    image1,
+    image2,
+    image3,
   ];
+
+  // const imgUrls = [
+  //   "https://source.unsplash.com/800x324/?services,ac&1",
+  //   "https://source.unsplash.com/800x324/?services,ac&2",
+  //   "https://source.unsplash.com/800x324/?services,ac&3",
+  // ];
 
   return (
     <>
@@ -44,7 +53,8 @@ const Slider = () => {
                   src={url}
                   className="d-block w-100"
                   alt={`Slide ${index + 1}`}
-                  style={{width:'800px',height:'324'}}
+                  id="logoimges"
+                  style={{ width: "800px", height: "690px" }}
                 />
               </div>
 
