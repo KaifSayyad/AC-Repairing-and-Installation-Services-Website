@@ -5,7 +5,7 @@ const sparePartsSchema = mongoose.Schema({
     name: String,
     description: String,
     price: Number,
-    // image: String,
+    image: String,
     isAvailable: {
         type: Boolean,
         default: true
