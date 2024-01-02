@@ -1,45 +1,39 @@
 import React from "react";
 import logo from "../assets/images/logo192.png";
 import "../assets/styles/Navbar.css";
+import "animate.css";
 
 const Navbar = () => {
   return (
     <>
-      {/* <nav className="navbar navbar-expand-lg bg-body-tertiary"> */}
-      <nav
-        className="navbar navbar-expand-lg bg-body-tertiary"
-        data-bs-theme="dark"
-      >
-        <div className="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary " >
+        <div class="container-fluid">
           <a className="navbar-brand" href="/">
             <img src={logo} alt="cool climate" id="logo" /> Cool Climate
           </a>
           <button
-            className="navbar-toggler"
+            class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            className="collapse navbar-collapse d-flex justify-content-center"
-            id="navbarNav"
-          >
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+          <div class="collapse navbar-collapse mx-5" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
                   Home
                 </a>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <a className="nav-link" href="/">
-                  Services
+                  Contact Us
                 </a>
-              </li> */}
+              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -50,33 +44,31 @@ const Navbar = () => {
                 >
                   Services
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu animate__animated animate__fadeIn">
                 <li>
                     <a class="dropdown-item" href="/">
                       AC Gas Filling
                     </a>
                   </li>
+                  <hr />
                   <li>
                     <a class="dropdown-item" href="/">
                       Routine Service
                     </a>
                   </li>
+                  <hr />
                   <li>
                     <a class="dropdown-item" href="/">
                     Repair Service
                     </a>
                   </li>
+                  <hr />
                   <li>
                     <a class="dropdown-item" href="/">
                     Installation & Uninstallation
                     </a>
                   </li>
                 </ul>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Contact Us
-                </a>
               </li>
             </ul>
           </div>
@@ -87,3 +79,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
