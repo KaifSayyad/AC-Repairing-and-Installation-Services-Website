@@ -1,21 +1,18 @@
 import React from "react";
 import "../assets/styles/Slider.css";
-import image1 from '../assets/images/image1.png'
-import image2 from '../assets/images/image2.png';
-import image3 from '../assets/images/image3.png'
+import image1 from '../assets/images/image1.jpg'
+import image2 from '../assets/images/image2.jpg'
+import image3 from '../assets/images/image3.jpg'
+import image4 from '../assets/images/image4.jpg'
+
 
 const Slider = () => {
   const imgUrls = [
     image1,
     image2,
     image3,
+    image4,
   ];
-
-  // const imgUrls = [
-  //   "https://source.unsplash.com/800x324/?services,ac&1",
-  //   "https://source.unsplash.com/800x324/?services,ac&2",
-  //   "https://source.unsplash.com/800x324/?services,ac&3",
-  // ];
 
   return (
     <>
@@ -23,7 +20,9 @@ const Slider = () => {
         id="carouselExampleCaptions"
         className="carousel slide"
         data-bs-ride="carousel"
+
         data-bs-interval="3500"
+
       >
         {/* Carousel Indicators */}
         <div className="carousel-indicators visually-hidden">
