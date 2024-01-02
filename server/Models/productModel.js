@@ -5,7 +5,7 @@ const productSchema = mongoose.Schema({
     description: String,
     price: Number,
     category: String,
-    // image: String,
+    image: String,
     isRefurbished: {
         type: Boolean,
         default: true
