@@ -1,6 +1,4 @@
-import e from 'express';
 import mongoose from 'mongoose';
-import { esbuildVersion } from 'vite';
 
 const productSchema = mongoose.Schema({
     name: String,
