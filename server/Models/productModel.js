@@ -1,17 +1,17 @@
+import e from 'express';
 import mongoose from 'mongoose';
+import { esbuildVersion } from 'vite';
 
-const serviceSchema = mongoose.Schema({
+const productSchema = mongoose.Schema({
     name: String,
     description: String,
     price: Number,
     category: String,
     // image: String,
-    isAvailable: {
+    isRefurbished: {
         type: Boolean,
         default: true
     }
 });
 
-const Service = mongoose.model('Service', serviceSchema);
-
-export default Service;
+export default mongoose.model('Product', productSchema);
