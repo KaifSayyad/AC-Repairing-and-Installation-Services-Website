@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar />
       <Slider />
-      {/* <CardRow /> */}
+      <CardRow />
     </>
   );
 }

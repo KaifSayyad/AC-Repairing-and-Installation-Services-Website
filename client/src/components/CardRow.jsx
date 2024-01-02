@@ -36,6 +36,12 @@ const CardRow = () => {
           <div className="col-md-3">
             <CardItem />
           </div>
+          <div className="col-md-3">
+            <CardItem />
+          </div>
+          <div className="col-md-3">
+            <CardItem />
+          </div>
         </div>
       </div>
     </>
