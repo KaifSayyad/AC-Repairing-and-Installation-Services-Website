@@ -4,12 +4,8 @@ const serviceSchema = mongoose.Schema({
     name: String,
     description: String,
     price: Number,
-    // category: String,
+    category: String,
     // image: String,
-    numBookings: {
-        type: Number,
-        default: 0
-    },
     isAvailable: {
         type: Boolean,
         default: true
