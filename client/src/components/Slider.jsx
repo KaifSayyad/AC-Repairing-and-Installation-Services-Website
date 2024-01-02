@@ -50,10 +50,9 @@ const Slider = () => {
               <div className="img-gradient">
                 <img
                   src={url}
-                  className="d-block w-100"
+                  className="d-block w-100 "
                   alt={`Slide ${index + 1}`}
-                  id="logoimges"
-                  style={{ width: "800px", height: "690px" }}
+                  id="logoImages"
                 />
               </div>
 

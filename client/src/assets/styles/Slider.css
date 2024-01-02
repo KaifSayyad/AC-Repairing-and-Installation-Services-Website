@@ -13,3 +13,15 @@
     background: rgb(223, 218, 220);
     background: linear-gradient(180deg, rgba(223, 218, 220, 0.06495098039215685) 7%, rgba(3, 12, 22, 1) 99%);
 }
+
+
+#logoImages{
+    width: 800px;
+    height: 690px;
+}
+
+@media (max-width: 767px) { 
+    #logoImages{
+        height:338px;
+    }
+  }
