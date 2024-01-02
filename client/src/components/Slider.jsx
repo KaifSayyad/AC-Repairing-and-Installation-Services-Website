@@ -1,12 +1,14 @@
 import React from "react";
 import "../assets/styles/Slider.css";
 
+
 const Slider = () => {
   const imgUrls = [
-    "https://source.unsplash.com/800x324/?services,ac&1",
-    "https://source.unsplash.com/800x324/?services,ac&2",
-    "https://source.unsplash.com/800x324/?services,ac&3",
-  ];
+    "./assets/images/Image1.jpg",
+    "./assets/images/Image2.jpg",
+    "./assets/images/Image3.jpg",
+    "./assets/images/Image4.jpg",
+  ]; 
 
   return (
     <>
