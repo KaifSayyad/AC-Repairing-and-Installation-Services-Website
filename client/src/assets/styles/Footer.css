@@ -1,0 +1,18 @@
+.footer-body{
+    height: 475px;
+    width: 100%;
+    color: white;
+}
+
+.footer-head{
+    background-color: #209CEE ;
+    height: 70px;
+    width: 100%;
+}
+
+.footer-content{
+    background-color: #333333;
+    height: 405px;
+    width: 100%;
+}
+

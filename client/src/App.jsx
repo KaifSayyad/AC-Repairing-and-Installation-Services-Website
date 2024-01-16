@@ -1,5 +1,6 @@
 import "./App.css";
 import CardRow from "./components/CardRow";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Slider />
       <CardRow />
+      <Footer/>
     </>
   );
 }

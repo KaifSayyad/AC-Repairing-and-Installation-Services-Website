@@ -5,7 +5,7 @@ const CardItem = () => {
   return (
     <>
       <div className="card my-3" style={{ width: '18rem' }}>
-      <img src={logo} class="card-img-top" alt="img"/ >
+      <img src={logo} className="card-img-top" alt="img"/ >
         <div className="card-body">
           <p className="card-text">
             Some quick example text to build on the card title and make up the
