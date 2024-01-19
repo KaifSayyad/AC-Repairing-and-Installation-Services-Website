@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../assets/images/logo192.png";
 import "../assets/styles/Navbar.css";
-import "animate.css";
 
 const Navbar = () => {
+
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary " >
@@ -25,7 +25,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse mx-5" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/">
                   Home
                 </a>
               </li>
@@ -37,15 +37,15 @@ const Navbar = () => {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="/"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Services
                 </a>
-                <ul className="dropdown-menu animate__animated animate__fadeIn">
-                <li>
+                <ul className="dropdown-menu ">
+                  <li>
                     <a className="dropdown-item" href="/">
                       AC Gas Filling
                     </a>
@@ -59,13 +59,13 @@ const Navbar = () => {
                   <hr />
                   <li>
                     <a className="dropdown-item" href="/">
-                    Repair Service
+                      Repair Service
                     </a>
                   </li>
                   <hr />
                   <li>
                     <a className="dropdown-item" href="/">
-                    Installation & Uninstallation
+                      Installation & Uninstallation
                     </a>
                   </li>
                 </ul>

@@ -20,7 +20,6 @@ const Slider = () => {
         id="carouselExampleCaptions"
         className="carousel slide"
         data-bs-ride="carousel"
-
         data-bs-interval="3500"
 
       >

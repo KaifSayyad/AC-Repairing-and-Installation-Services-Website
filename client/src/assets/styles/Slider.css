@@ -16,16 +16,17 @@
 
 
 #logoImages{
-    width: 800px;
-    height: 696px;
+    width: 99%;
+    height: 621px;
+    overflow-x: hidden;
 }
 
 @media (max-width: 767px) { 
     #logoImages{
-        height:338px;
+        height:335px;
     }
 
     .carouselExampleCaptions{
-        height:338px;
+        height:330px;
     }
   }

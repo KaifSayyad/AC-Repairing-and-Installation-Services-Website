@@ -17,6 +17,7 @@ app.use(cors())
 /* setting up database and starting the server 
   SET YOUR MONGO URL AND PORT IN .env FILE */
 
+
 mongoose.connect(process.env.MONGO_URL).then(
   app.listen(process.env.PORT, () => console.log(`Server running on port: http://localhost:${process.env.PORT}/`))
 ).catch((error) => console.log(error.message))
