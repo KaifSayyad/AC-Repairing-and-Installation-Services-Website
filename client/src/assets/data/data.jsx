@@ -1,5 +1,5 @@
-export const data = [{
-    "services": [
+export const data = {
+    "services": 
         {
             "basic": [
                 {
@@ -153,7 +153,7 @@ export const data = [{
                 },
             ]
         }
-    ],
+    ,
     "contactUs": [
         {
             "location": "Dadmahal Ward, Near Kohinoor Ground, Chandrapur-442401",
@@ -171,4 +171,4 @@ export const data = [{
             "footerDescription": "Cool Climate stands out as a reliable and independent air conditioner service provider in India. Our services at AC Care India encompass a comprehensive range, including AC installation, repair, regular maintenance, and Annual Maintenance Contract (AMC) services for both residential and commercial air conditioning units. We specialize in catering to all major brands of air conditioners, providing quality services at competitive and affordable prices."
         }
     ],
-}];
+};

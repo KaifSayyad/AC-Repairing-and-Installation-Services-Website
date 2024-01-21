@@ -20,6 +20,7 @@ const Slider = () => {
         className="carousel slide"
         data-bs-ride="carousel"
         data-bs-interval="3500"
+        style={{marginTop: '85px'}}
 
       >
         

@@ -4,7 +4,7 @@ import {data} from '../assets/data/data.jsx'
 
 const CardRow = () => {
 
-  console.log(data.services.basic);
+  // console.log(data.services.basic);
 
   return (
     <>
