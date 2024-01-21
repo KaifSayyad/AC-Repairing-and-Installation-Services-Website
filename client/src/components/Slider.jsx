@@ -1,17 +1,16 @@
 import React from "react";
 import "../assets/styles/Slider.css";
-import image1 from '../assets/images/image1.jpg'
-import image2 from '../assets/images/image2.jpg'
-import image3 from '../assets/images/image3.jpg'
-import image4 from '../assets/images/image4.jpg'
-
+import img4 from '../assets/images/img4.jpg'
+import img3 from '../assets/images/img3.jpg'
+import img2 from '../assets/images/img2.jpg'
+import img from '../assets/images/img.jpg'
 
 const Slider = () => {
   const imgUrls = [
-    image1,
-    image2,
-    image3,
-    image4,
+    img3,
+    img,
+    img2,
+    img4,
   ];
 
   return (
@@ -54,10 +53,7 @@ const Slider = () => {
               </div>
 
               <div className="carousel-caption d-none d-md-block">
-                <h5>{`Slide ${index + 1} label`}</h5>
-                <p>{`Some representative placeholder content for slide ${
-                  index + 1
-                }.`}</p>
+                <p>{`Keeping it Cool, Fixing it Right Your Trusted Partner for Superior AC Repair and Services at Cool Climate`}</p>
               </div>
             </div>
           ))}

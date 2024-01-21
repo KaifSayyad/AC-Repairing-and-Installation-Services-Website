@@ -9,7 +9,7 @@ export const data = [{
                         "Filter, coils etc. cleaned with water",
                         "Checks the elements properly"
                     ],
-                    "price": "₹ 499/-"
+                    "price": "₹ 699/-"
                 },
                 {
                     "name": "Routine Service (Split AC)",
@@ -27,7 +27,7 @@ export const data = [{
                         "Filter, coils etc. cleaned with water",
                         "Checks the performance of the air conditioner"
                     ],
-                    "price": "₹ 999/-"
+                    "price": "₹ 1199/-"
                 },
                 {
                     "name": "Repair Service (Window AC)",
@@ -57,7 +57,7 @@ export const data = [{
                         "Connect electricity supply to Air Conditioner",
                         "Check Window AC functions after installation"
                     ],
-                    "price": "₹ 549/-"
+                    "price": "₹ 699/-"
                 },
                 {
                     "name": "Uninstallation (Window AC)",
@@ -67,7 +67,7 @@ export const data = [{
                         "Disconnect electricity supply to Air Conditioner",
                         "Pack Air Conditioner at place"
                     ],
-                    "price": "₹ 399/-"
+                    "price": "₹ 449/-"
                 },
                 {
                     "name": "Installation (Split AC)",
@@ -77,7 +77,7 @@ export const data = [{
                         "Connect electricity supply to Air Conditioner",
                         "Check Split AC functions after installation"
                     ],
-                    "price": "₹ 1349/-"
+                    "price": "₹ 1499/-"
                 },
                 {
                     "name": "Uninstallation (Split AC)",
@@ -87,7 +87,7 @@ export const data = [{
                         "Disconnect electricity supply to Air Conditioner",
                         "Pack Air Conditioner at place"
                     ],
-                    "price": "₹ 799/-"
+                    "price": "₹ 999/-"
                 },
             ],
             "gasFilling": [
@@ -109,7 +109,7 @@ export const data = [{
                         "Fill Gas according to air conditioner.",
                         "Check leakage after refill gas. "
                     ],
-                    "price": "₹ 2499/-"
+                    "price": "₹ 2799/-"
                 },
                 {
                     "name": "Window AC Gas Filling (2.0 Ton)",
@@ -119,7 +119,7 @@ export const data = [{
                         "Fill Gas according to air conditioner.",
                         "Check leakage after refill gas. "
                     ],
-                    "price": "₹ 2499/-"
+                    "price": "₹ 2999/-"
                 },
                 {
                     "name": "Split AC Gas Filling (1.0 Ton)",

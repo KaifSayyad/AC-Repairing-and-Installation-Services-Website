@@ -1,16 +1,45 @@
-import React, { useEffect } from "react";
 import logo from "../assets/images/logo192.png";
 import "../assets/styles/Navbar.css";
 
+
+import { Link, useLocation } from "react-router-dom";
+import { useRef } from "react";
+
 const Navbar = () => {
+
+  let prevScrollPos = window.scrollY
+  const navbarRef = useRef(null);
+  const location = useLocation();
+
+
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+
+    const currentScrollPos = window.scrollY
+    const navbar = navbarRef.current;
+
+
+    if (navbar) {
+      if (prevScrollPos > currentScrollPos) {
+        document.getElementById("topNavbar").style.top = "0";
+      } else {
+        document.getElementById("topNavbar").style.top = "-100px";
+      }
+    }
+
+    prevScrollPos = currentScrollPos;
+  }
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary " >
+      <nav className="navbar navbar-expand-lg bg-body-tertiary " ref={navbarRef} id='topNavbar'>
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
             <img src={logo} alt="cool climate" id="logo" /> Cool Climate
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -25,48 +54,48 @@ const Navbar = () => {
           <div className="collapse navbar-collapse mx-5" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className={`nav-link ${location.pathname === '/' ? 'active' : ''}`} aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`} to="/contact">
                   Contact Us
-                </a>
+                </Link>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="/"
+              <li className="nav-item dropdown" >
+                <Link
+                  className={`nav-link dropdown-toggle ${location.pathname === '/' ? 'active' : ''}`}
+                  to="/"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Services
-                </a>
+                </Link>
                 <ul className="dropdown-menu ">
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/">
                       AC Gas Filling
-                    </a>
+                    </Link>
                   </li>
                   <hr />
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/">
                       Routine Service
-                    </a>
+                    </Link>
                   </li>
                   <hr />
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/">
                       Repair Service
-                    </a>
+                    </Link>
                   </li>
                   <hr />
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/">
                       Installation & Uninstallation
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
