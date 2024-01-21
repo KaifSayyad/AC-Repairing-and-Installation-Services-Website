@@ -5,11 +5,9 @@ const productSchema = mongoose.Schema({
     description: String,
     price: Number,
     category: String,
-    image: String,
-    isRefurbished: {
-        type: Boolean,
-        default: true
-    }
+    image: String
 });
 
-export default mongoose.model('Product', productSchema);
+const Product = mongoose.model('Product', productSchema);
+
+export default Product;
