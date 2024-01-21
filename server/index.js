@@ -27,6 +27,6 @@ mongoose.connect(process.env.MONGO_URL).then(
 // set up your routes here
 app.use('/api/service', serviceRouter)
 app.use('/api/product', productRouter)
-app.use('/api/sparepart', sparePartRouter)
+app.use('/api/sparePart', sparePartRouter)
 
 export default app
