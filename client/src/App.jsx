@@ -1,16 +1,22 @@
 import "./App.css";
-import CardRow from "./components/CardRow";
-import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Slider from "./components/Slider";
+import Contact from "./components/contact";
+import Home from "./components/home";
+
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Slider />
-      <CardRow />
-      <Footer/>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          /* change the route to  = /cool-cliamte */
+          <Route path="/"  element={<Home />} />
+          /* change the route to  = /cool-cliamte/contact */
+          <Route path="/contact"  element={<Contact/>} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

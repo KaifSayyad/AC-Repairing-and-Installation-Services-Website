@@ -1,6 +1,7 @@
 import React from "react";
 import logo from '../assets/images/card_image1.jpg'
 
+
 const CardItem = () => {
   return (
     <>

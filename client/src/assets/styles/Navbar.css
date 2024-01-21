@@ -1,19 +1,28 @@
-#logo {
-    width: 50px;
-    margin-left: 35px;
+#topNavbar {
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+  width: 100%;
+  transition: top 0.3s ease;
 }
 
-.nav-item{
-    margin: 0px 35px;
+
+#logo {
+  width: 50px;
+  margin-left: 35px;
+}
+
+.nav-item {
+  margin: 0px 35px;
 }
 
 .dropdown-menu {
-    opacity: 0;
-    transform: translateY(-10px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-  }
-  
-  .dropdown-menu.show {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.dropdown-menu.show {
+  opacity: 1;
+  transform: translateY(0);
+}

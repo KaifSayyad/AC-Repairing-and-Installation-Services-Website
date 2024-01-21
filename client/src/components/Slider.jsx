@@ -21,6 +21,7 @@ const Slider = () => {
         className="carousel slide"
         data-bs-ride="carousel"
         data-bs-interval="3500"
+        style={{marginTop:'80px'}}
 
       >
         
@@ -54,7 +55,6 @@ const Slider = () => {
               </div>
 
               <div className="carousel-caption d-none d-md-block">
-                <h5>{`Slide ${index + 1} label`}</h5>
                 <p>{`Some representative placeholder content for slide ${
                   index + 1
                 }.`}</p>

@@ -1,5 +1,5 @@
-export const data = [{
-    "services": [
+export const data = {
+    "services": 
         {
             "basic": [
                 {
@@ -9,7 +9,8 @@ export const data = [{
                         "Filter, coils etc. cleaned with water",
                         "Checks the elements properly"
                     ],
-                    "price": "₹ 499/-"
+                    "price": "₹ 499/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image1.jpg",
                 },
                 {
                     "name": "Routine Service (Split AC)",
@@ -18,7 +19,8 @@ export const data = [{
                         "Filter, coils etc. cleaned with water",
                         "Checks the elements properly"
                     ],
-                    "price": "₹ 599/-"
+                    "price": "₹ 599/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image2.jpg",
                 },
                 {
                     "name": "Routine Jet Service (Split AC)",
@@ -27,7 +29,8 @@ export const data = [{
                         "Filter, coils etc. cleaned with water",
                         "Checks the performance of the air conditioner"
                     ],
-                    "price": "₹ 999/-"
+                    "price": "₹ 999/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image3.jpg",
                 },
                 {
                     "name": "Repair Service (Window AC)",
@@ -37,7 +40,8 @@ export const data = [{
                         "Checks the performance of the air conditioner",
                         "Troubleshoots the problem in an efficient manner"
                     ],
-                    "price": "₹ 499/-"
+                    "price": "₹ 499/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image4.jpg",
                 },
                 {
                     "name": "Repair Service (Split AC)",
@@ -47,7 +51,8 @@ export const data = [{
                         "Checks the performance of the air conditioner",
                         "Troubleshoots the problem in an efficient manner"
                     ],
-                    "price": "₹ 599/-"
+                    "price": "₹ 599/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image1.jpg",
                 },
                 {
                     "name": "Installation (Window AC)",
@@ -57,7 +62,8 @@ export const data = [{
                         "Connect electricity supply to Air Conditioner",
                         "Check Window AC functions after installation"
                     ],
-                    "price": "₹ 549/-"
+                    "price": "₹ 549/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image2.jpg",
                 },
                 {
                     "name": "Uninstallation (Window AC)",
@@ -67,7 +73,8 @@ export const data = [{
                         "Disconnect electricity supply to Air Conditioner",
                         "Pack Air Conditioner at place"
                     ],
-                    "price": "₹ 399/-"
+                    "price": "₹ 399/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image3.jpg",
                 },
                 {
                     "name": "Installation (Split AC)",
@@ -77,7 +84,8 @@ export const data = [{
                         "Connect electricity supply to Air Conditioner",
                         "Check Split AC functions after installation"
                     ],
-                    "price": "₹ 1349/-"
+                    "price": "₹ 1349/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image4.jpg",
                 },
                 {
                     "name": "Uninstallation (Split AC)",
@@ -87,7 +95,8 @@ export const data = [{
                         "Disconnect electricity supply to Air Conditioner",
                         "Pack Air Conditioner at place"
                     ],
-                    "price": "₹ 799/-"
+                    "price": "₹ 799/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image1.jpg",
                 },
             ],
             "gasFilling": [
@@ -99,7 +108,8 @@ export const data = [{
                         "Fill Gas according to air conditioner.",
                         "Check leakage after refill gas. "
                     ],
-                    "price": "₹ 2499/-"
+                    "price": "₹ 2499/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image2.jpg",
                 },
                 {
                     "name": "Window AC Gas Filling (1.5 Ton)",
@@ -109,7 +119,8 @@ export const data = [{
                         "Fill Gas according to air conditioner.",
                         "Check leakage after refill gas. "
                     ],
-                    "price": "₹ 2499/-"
+                    "price": "₹ 2499/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image3.jpg",
                 },
                 {
                     "name": "Window AC Gas Filling (2.0 Ton)",
@@ -119,7 +130,8 @@ export const data = [{
                         "Fill Gas according to air conditioner.",
                         "Check leakage after refill gas. "
                     ],
-                    "price": "₹ 2499/-"
+                    "price": "₹ 2499/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image4.jpg",
                 },
                 {
                     "name": "Split AC Gas Filling (1.0 Ton)",
@@ -129,7 +141,8 @@ export const data = [{
                         "Fill Gas according to air conditioner.",
                         "Check leakage after refill gas. "
                     ],
-                    "price": "₹ 2999/-"
+                    "price": "₹ 2999/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image1.jpg",
                 },
                 {
                     "name": "Split AC Gas Filling (1.5 Ton)",
@@ -139,7 +152,8 @@ export const data = [{
                         "Fill Gas according to air conditioner.",
                         "Check leakage after refill gas. "
                     ],
-                    "price": "₹ 3499/-"
+                    "price": "₹ 3499/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image2.jpg",
                 },
                 {
                     "name": "Split AC Gas Filling (2.0 Ton)",
@@ -149,11 +163,12 @@ export const data = [{
                         "Fill Gas according to air conditioner.",
                         "Check leakage after refill gas. "
                     ],
-                    "price": "₹ 4499/-"
+                    "price": "₹ 4499/-",
+                    "image": "https://itplerwltabfmijvnsfp.supabase.co/storage/v1/object/public/images/card_image3.jpg",
                 },
             ]
         }
-    ],
+    ,
     "contactUs": [
         {
             "location": "Dadmahal Ward, Near Kohinoor Ground, Chandrapur-442401",
@@ -171,4 +186,4 @@ export const data = [{
             "footerDescription": "Cool Climate stands out as a reliable and independent air conditioner service provider in India. Our services at AC Care India encompass a comprehensive range, including AC installation, repair, regular maintenance, and Annual Maintenance Contract (AMC) services for both residential and commercial air conditioning units. We specialize in catering to all major brands of air conditioners, providing quality services at competitive and affordable prices."
         }
     ],
-}];
+};
