@@ -1,13 +1,13 @@
 import React from "react";
+
+
 import "../assets/styles/Slider.css";
 import img4 from '../assets/images/img4.jpg'
-import img3 from '../assets/images/img3.jpg'
 import img2 from '../assets/images/img2.jpg'
 import img from '../assets/images/img.jpg'
 
 const Slider = () => {
   const imgUrls = [
-    img3,
     img,
     img2,
     img4,
@@ -20,7 +20,7 @@ const Slider = () => {
         className="carousel slide"
         data-bs-ride="carousel"
         data-bs-interval="3500"
-        style={{marginTop: '85px'}}
+        style={{marginTop: '78px'}}
 
       >
         

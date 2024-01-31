@@ -1,18 +1,59 @@
-.footer-body{
-    height: 475px;
+.footer-body {
+    height: 100%;
     width: 100%;
     color: white;
-}
-
-.footer-head{
-    background-color: #209CEE ;
-    height: 70px;
-    width: 100%;
-}
-
-.footer-content{
     background-color: #333333;
-    height: 405px;
-    width: 100%;
 }
 
+.about-us-footer {
+    width: 50%;
+}
+
+.footer-description {
+    width: 50%;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-image {
+    width: 100px;
+    height: 50px;
+}
+
+.about-us-footer,
+.contact-us-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.new3 {
+    border-top: 3px dotted white;
+}
+
+p {
+    font-size: small;
+}
+
+
+@media (max-width: 767px) {
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-us-footer {
+        width: 100%;
+    }
+
+    .footer-description {
+        width: 100%;
+    }
+
+    .no-display-mobile{
+        display: none;
+    }
+
+}
