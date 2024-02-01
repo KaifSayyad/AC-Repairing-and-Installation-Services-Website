@@ -13,12 +13,18 @@
   margin-left: 35px;
 }
 
+
+
 .nav-item {
   margin: 0px 35px;
 }
 
 .bold-text{
   font-weight:600;
+}
+
+.mobile-number{
+  margin-left: 41%;
 }
 
 .dropdown-menu {

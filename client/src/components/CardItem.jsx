@@ -41,10 +41,10 @@ const CardItem = ({data}) => {
             </p>
           </div>
           <button
-          style={{marginLeft:"60%", marginTop:"10px"}}
+          style={{marginLeft:"60%", marginTop:"10px", borderRadius: "50px",}}
                 type="button"
                 data-bs-toggle="modal" data-bs-target="#exampleModal"
-                className="btn btn-secondary"
+                className="btn btn-primary"
               > Book now</button>
         </div>
       </div>

@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import CardItem from "./CardItem";
 import '../assets/styles/CardRow.css'
 import getData from "./getData.jsx";
-import img from '../assets/images/2.jpg'
+import img from '../assets/images/1.jpg'
 import { dataDetails } from '../assets/data/data.jsx'
 
 const CardRow = () => {
@@ -76,7 +76,7 @@ const CardRow = () => {
         </div>
       </div>
       <div className="my-5 cards ">
-        <h4 className="mx-5">Second Hand Products</h4>
+        <h4 className="mx-5">Second Hand Products and Spare Parts</h4>
         <div className="margin-x my-4 row justify-content-center bg-white ">
           {data
             .filter(item => item.category === "Used")

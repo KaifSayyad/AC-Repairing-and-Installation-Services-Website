@@ -6,11 +6,13 @@ import img4 from '../assets/images/img4.jpg'
 import img2 from '../assets/images/img2.jpg'
 import img from '../assets/images/img.jpg'
 
+
 const Slider = () => {
   const imgUrls = [
     img,
-    img2,
     img4,
+    img2,
+
   ];
 
   return (
@@ -54,7 +56,7 @@ const Slider = () => {
               </div>
 
               <div className="carousel-caption d-none d-md-block">
-                <p>{`Keeping it Cool, Fixing it Right Your Trusted Partner for Superior AC Repair and Services at Cool Climate`}</p>
+                <p style={{color:'black'}}> {`Keeping it Cool, Fixing it Right Your Trusted Partner for Superior AC Repair and Services at Cool Climate`}</p>
               </div>
             </div>
           ))}
