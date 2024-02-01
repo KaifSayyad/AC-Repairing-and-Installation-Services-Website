@@ -1,9 +1,11 @@
+import { useRef } from "react";
+import { Link, useLocation } from "react-router-dom";
+
+
 import logo from "../assets/images/logo192.png";
 import "../assets/styles/Navbar.css";
 
 
-import { Link, useLocation } from "react-router-dom";
-import { useRef } from "react";
 ;
 
 const Navbar = () => {
