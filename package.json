@@ -1,13 +1,12 @@
 {
-  "name": "ac-repairing-and-installation-services-website",
+  "name": "cool-climate",
   "version": "1.0.0",
   "description": "main node modules package",
-  "main": "index.js",
+  "main": "client/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm run dev --prefix client",
-    "server": "nodemon server/index.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run client\""
   },
   "author": "",
   "license": "ISC",
